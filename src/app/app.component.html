@@ -1,0 +1,8 @@
+
+<h1 class="center-text">Sample Ngrx Example</h1>
+<hr>
+<br>
+write text here : <input type="text" name="yourText" #yourText>
+<button type="button"  (click)="chnageText(yourText)">Submit</button>
+<br>
+Output: {{(message$ | async).message}}
