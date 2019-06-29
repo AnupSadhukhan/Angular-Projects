@@ -8,7 +8,7 @@ export class changeMessage implements Action{
     readonly type=actions.CHANGE_MESSAGE;
     
     constructor( public payload : string){
-       
+    
     }
 }
 
